@@ -1,26 +1,27 @@
 {
-"description": "Encapsulates error statistics within a top-level `eStats` member.",
-"edgeErrors": {
-    "description": "The total number of reported errors for traffic between edge and client."
+    "description": "Encapsulates error statistics within a top-level `eStats` member.",
+    "edgeErrors": {
+        "description": "The total number of reported errors for traffic between edge and client.",
+        "value": "43"
     },
-"edgeFailurePercentage": {
-    "description": "The percentage of error responses for traffic between edge and client."
+    "edgeFailurePercentage": {
+        "description": "The percentage of error responses for traffic between edge and client.",
+        "value": "10%"
     },
-"edgeHits": {
-    "description": "Total number of hits from clients to edge."
+    "edgeHits": {
+        "description": "Total number of hits from clients to edge.",
+        "value": "4,309"
     },
-"edgeStatusCodeDistribution": {
-    "description": "Percentages and total hits for each status code for traffic between edge and client."},
-"originErrors": {
-    "description": "The total number of reported errors for traffic between edge and origin."
+    "originErrors": {
+        "description": "The total number of reported errors for traffic between edge and origin.",
+        "value": "224"
     },
-"originFailurePercentage": {
-    "description": "The percentage of error responses for traffic between edge and origin."
+    "originFailurePercentage": {
+        "description": "The percentage of error responses for traffic between edge and origin.",
+        "value": "60%"
     },
-"originHits": {
-    "description": "Total number of hits from the edge to origin."
-    },
-"originStatusCodeDistribution": {
-    "description": "Percentages and total hits for each status code for traffic between edge and origin."
+    "originHits": {
+        "description": "Total number of hits from the edge to origin.",
+        "value": "374"
     }
 }
